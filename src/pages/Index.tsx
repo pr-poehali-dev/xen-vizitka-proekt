@@ -29,9 +29,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <Icon name="Code" size={32} className="text-blue-600" />
+              <Icon name="Map" size={32} className="text-blue-600" />
               <span className="ml-2 text-xl font-bold text-gray-900">
-                TechSolutions
+                GeoSystem
               </span>
             </div>
             <nav className="hidden md:flex space-x-8">
@@ -93,11 +93,11 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Инновационные IT-решения для вашего бизнеса
+              Геоинформационная система нового поколения
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Разрабатываем современные технологические решения, которые
-              помогают компаниям достигать целей и оптимизировать процессы
+              Мощная ГИС-платформа для анализа пространственных данных,
+              картографии и управления геоинформацией
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
@@ -116,48 +116,50 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              О продукте
+              О нашей ГИС
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Наша платформа объединяет передовые технологии для создания
-              комплексных решений
+              Профессиональная геоинформационная система для работы с картами,
+              анализа территорий и управления пространственными данными
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-gray-200">
               <CardContent className="p-6">
-                <Icon name="Zap" size={48} className="text-blue-600 mb-4" />
+                <Icon name="MapPin" size={48} className="text-blue-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">
-                  Высокая производительность
+                  Точная геолокация
                 </h3>
                 <p className="text-gray-600">
-                  Оптимизированные алгоритмы обеспечивают быструю обработку
+                  Высокоточные алгоритмы обработки координат и пространственных
                   данных
                 </p>
               </CardContent>
             </Card>
             <Card className="border-gray-200">
               <CardContent className="p-6">
-                <Icon name="Shield" size={48} className="text-blue-600 mb-4" />
-                <h3 className="text-xl font-semibold mb-3">Безопасность</h3>
+                <Icon name="Layers" size={48} className="text-blue-600 mb-4" />
+                <h3 className="text-xl font-semibold mb-3">
+                  Многослойные карты
+                </h3>
                 <p className="text-gray-600">
-                  Многоуровневая защита данных и соответствие стандартам
-                  безопасности
+                  Работа с векторными и растровыми слоями, наложение данных
                 </p>
               </CardContent>
             </Card>
             <Card className="border-gray-200">
               <CardContent className="p-6">
                 <Icon
-                  name="Settings"
+                  name="BarChart3"
                   size={48}
                   className="text-blue-600 mb-4"
                 />
                 <h3 className="text-xl font-semibold mb-3">
-                  Гибкость настройки
+                  Пространственная аналитика
                 </h3>
                 <p className="text-gray-600">
-                  Адаптация под специфические требования вашего бизнеса
+                  Инструменты для анализа территорий, расчета расстояний и
+                  площадей
                 </p>
               </CardContent>
             </Card>
@@ -179,9 +181,9 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-gray-200">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4">Стартовый</h3>
+                <h3 className="text-2xl font-bold mb-4">Базовый</h3>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold">₽50,000</span>
+                  <span className="text-4xl font-bold">₽25,000</span>
                   <span className="text-gray-600">/месяц</span>
                 </div>
                 <ul className="space-y-3 mb-8">
@@ -191,7 +193,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    До 1000 пользователей
+                    До 5 одновременных пользователей
                   </li>
                   <li className="flex items-center">
                     <Icon
@@ -199,7 +201,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    Базовая поддержка
+                    Базовые картографические функции
                   </li>
                   <li className="flex items-center">
                     <Icon
@@ -207,7 +209,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    API доступ
+                    Импорт/экспорт данных
                   </li>
                 </ul>
                 <Button className="w-full" variant="outline">
@@ -224,7 +226,7 @@ const Index = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4">Профессиональный</h3>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold">₽150,000</span>
+                  <span className="text-4xl font-bold">₽75,000</span>
                   <span className="text-gray-600">/месяц</span>
                 </div>
                 <ul className="space-y-3 mb-8">
@@ -234,7 +236,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    До 10,000 пользователей
+                    До 25 одновременных пользователей
                   </li>
                   <li className="flex items-center">
                     <Icon
@@ -242,7 +244,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    Приоритетная поддержка
+                    Пространственный анализ
                   </li>
                   <li className="flex items-center">
                     <Icon
@@ -250,7 +252,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    Расширенная аналитика
+                    3D визуализация
                   </li>
                   <li className="flex items-center">
                     <Icon
@@ -258,7 +260,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    Интеграции
+                    API для интеграций
                   </li>
                 </ul>
                 <Button className="w-full bg-blue-600 hover:bg-blue-700">
@@ -270,7 +272,7 @@ const Index = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4">Корпоративный</h3>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold">₽500,000</span>
+                  <span className="text-4xl font-bold">₽200,000</span>
                   <span className="text-gray-600">/месяц</span>
                 </div>
                 <ul className="space-y-3 mb-8">
@@ -280,7 +282,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    Неограниченные пользователи
+                    Неограниченное количество пользователей
                   </li>
                   <li className="flex items-center">
                     <Icon
@@ -288,7 +290,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    Персональный менеджер
+                    Собственный сервер
                   </li>
                   <li className="flex items-center">
                     <Icon
@@ -296,7 +298,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    Кастомизация
+                    Индивидуальная настройка
                   </li>
                   <li className="flex items-center">
                     <Icon
@@ -304,7 +306,7 @@ const Index = () => {
                       size={20}
                       className="text-green-500 mr-3"
                     />
-                    SLA гарантии
+                    Техподдержка 24/7
                   </li>
                 </ul>
                 <Button className="w-full" variant="outline">
@@ -324,41 +326,30 @@ const Index = () => {
               Часто задаваемые вопросы
             </h2>
             <p className="text-lg text-gray-600">
-              Ответы на популярные вопросы о нашем продукте
+              Ответы на популярные вопросы о нашей ГИС
             </p>
           </div>
           <div className="space-y-6">
             <Card className="border-gray-200">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-3">
-                  Как быстро можно внедрить решение?
+                  Какие форматы геоданных поддерживает система?
                 </h3>
                 <p className="text-gray-600">
-                  Стандартное внедрение занимает от 2 до 4 недель в зависимости
-                  от сложности проекта и требований интеграции.
+                  Наша ГИС поддерживает все основные форматы: Shapefile,
+                  GeoJSON, KML, GPX, WMS, WFS и многие другие векторные и
+                  растровые форматы.
                 </p>
               </CardContent>
             </Card>
             <Card className="border-gray-200">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-3">
-                  Какие гарантии предоставляются?
+                  Можно ли интегрировать систему с существующими базами данных?
                 </h3>
                 <p className="text-gray-600">
-                  Мы предоставляем гарантию на все разработанные решения сроком
-                  12 месяцев, включая техническую поддержку и исправление
-                  ошибок.
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="border-gray-200">
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-3">
-                  Возможна ли интеграция с существующими системами?
-                </h3>
-                <p className="text-gray-600">
-                  Да, наша платформа поддерживает интеграцию с большинством
-                  популярных корпоративных систем через API и стандартные
+                  Да, система поддерживает интеграцию с PostgreSQL/PostGIS,
+                  Oracle Spatial, SQL Server и другими СУБД через стандартные
                   протоколы.
                 </p>
               </CardContent>
@@ -366,12 +357,23 @@ const Index = () => {
             <Card className="border-gray-200">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-3">
-                  Какой уровень поддержки предоставляется?
+                  Какая точность позиционирования доступна?
                 </h3>
                 <p className="text-gray-600">
-                  В зависимости от тарифного плана предоставляется базовая,
-                  приоритетная поддержка или персональный менеджер с SLA
-                  гарантиями.
+                  Система обеспечивает точность от сантиметровой (при
+                  использовании RTK) до метровой в зависимости от источника
+                  данных и настроек.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="border-gray-200">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold mb-3">
+                  Есть ли возможность работы в офлайн режиме?
+                </h3>
+                <p className="text-gray-600">
+                  Да, система поддерживает кэширование карт и данных для работы
+                  без интернета с последующей синхронизацией.
                 </p>
               </CardContent>
             </Card>
@@ -391,35 +393,45 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
-                <Icon name="Trophy" size={32} className="text-blue-600" />
+                <Icon name="Globe" size={32} className="text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">5+ лет опыта</h3>
+              <h3 className="text-xl font-semibold mb-2">Мировые стандарты</h3>
               <p className="text-gray-600">
-                Успешно реализовали более 200 проектов
+                Соответствие международным стандартам OGC и ISO
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                <Icon name="Zap" size={32} className="text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">
+                Высокая производительность
+              </h3>
+              <p className="text-gray-600">
+                Обработка больших объемов данных в реальном времени
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                <Icon name="Shield" size={32} className="text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">
+                Безопасность данных
+              </h3>
+              <p className="text-gray-600">
+                Многоуровневая защита и шифрование геоданных
               </p>
             </div>
             <div className="text-center">
               <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                 <Icon name="Users" size={32} className="text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Команда экспертов</h3>
-              <p className="text-gray-600">50+ специалистов высокого уровня</p>
-            </div>
-            <div className="text-center">
-              <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
-                <Icon name="Clock" size={32} className="text-blue-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">24/7 поддержка</h3>
+              <h3 className="text-xl font-semibold mb-2">
+                Экспертная поддержка
+              </h3>
               <p className="text-gray-600">
-                Круглосуточная техническая поддержка
+                Команда профессиональных картографов и разработчиков
               </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
-                <Icon name="Award" size={32} className="text-blue-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Сертификации</h3>
-              <p className="text-gray-600">ISO 27001, GDPR compliance</p>
             </div>
           </div>
         </div>
@@ -433,7 +445,7 @@ const Index = () => {
               Оставить заявку
             </h2>
             <p className="text-lg text-gray-600">
-              Свяжитесь с нами для обсуждения вашего проекта
+              Свяжитесь с нами для обсуждения вашего ГИС-проекта
             </p>
           </div>
           <Card className="border-gray-200">
@@ -491,7 +503,7 @@ const Index = () => {
                     onChange={(e) =>
                       handleInputChange("message", e.target.value)
                     }
-                    placeholder="Расскажите о вашем проекте..."
+                    placeholder="Расскажите о вашем ГИС-проекте..."
                     rows={4}
                     required
                   />
@@ -539,8 +551,8 @@ const Index = () => {
                   className="text-blue-600 mx-auto mb-4"
                 />
                 <h3 className="text-xl font-semibold mb-2">Email</h3>
-                <p className="text-gray-600">info@techsolutions.ru</p>
-                <p className="text-gray-600">sales@techsolutions.ru</p>
+                <p className="text-gray-600">info@geosystem.ru</p>
+                <p className="text-gray-600">sales@geosystem.ru</p>
               </CardContent>
             </Card>
             <Card className="border-gray-200">
@@ -551,8 +563,8 @@ const Index = () => {
                   className="text-blue-600 mx-auto mb-4"
                 />
                 <h3 className="text-xl font-semibold mb-2">Адрес</h3>
-                <p className="text-gray-600">г. Москва, ул. Тверская, 1</p>
-                <p className="text-gray-600">БЦ "Технопарк", офис 505</p>
+                <p className="text-gray-600">г. Москва, ул. Карта, 15</p>
+                <p className="text-gray-600">БЦ "ГеоТех", офис 301</p>
               </CardContent>
             </Card>
           </div>
@@ -565,38 +577,39 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">О нас</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Мы — команда профессионалов, которая создает инновационные
-              IT-решения для современного бизнеса. Наша миссия — помочь
-              компаниям достичь цифровой трансформации и повысить эффективность
-              через технологии.
+              Мы — команда экспертов в области геоинформационных технологий.
+              Наша миссия — предоставить мощные инструменты для работы с
+              пространственными данными и помочь организациям принимать
+              обоснованные решения на основе географической информации.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl font-bold mb-6">Наша история</h3>
               <p className="text-gray-600 mb-4">
-                Основанная в 2019 году, компания TechSolutions быстро
-                зарекомендовала себя как надежный партнер в области разработки
-                программного обеспечения и цифровых решений.
+                Основанная в 2018 году, компания GeoSystem стала лидером в
+                разработке геоинформационных решений. Мы объединили опыт
+                картографов, геодезистов и IT-специалистов для создания
+                инновационной ГИС-платформы.
               </p>
               <p className="text-gray-600 mb-6">
-                За годы работы мы накопили богатый опыт в различных отраслях и
-                технологиях, что позволяет нам создавать решения любой
-                сложности.
+                За годы работы мы успешно реализовали проекты в области
+                кадастра, городского планирования, экологии, лесного хозяйства и
+                многих других сферах.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600">200+</div>
-                  <div className="text-sm text-gray-600">Проектов</div>
+                  <div className="text-2xl font-bold text-blue-600">150+</div>
+                  <div className="text-sm text-gray-600">ГИС-проектов</div>
                 </div>
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600">150+</div>
+                  <div className="text-2xl font-bold text-blue-600">50+</div>
                   <div className="text-sm text-gray-600">Клиентов</div>
                 </div>
               </div>
             </div>
             <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <Icon name="Building" size={64} className="text-gray-400" />
+              <Icon name="Map" size={64} className="text-gray-400" />
             </div>
           </div>
         </div>
@@ -608,11 +621,11 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <Icon name="Code" size={32} className="text-blue-400" />
-                <span className="ml-2 text-xl font-bold">TechSolutions</span>
+                <Icon name="Map" size={32} className="text-blue-400" />
+                <span className="ml-2 text-xl font-bold">GeoSystem</span>
               </div>
               <p className="text-gray-400">
-                Инновационные IT-решения для вашего бизнеса
+                Геоинформационные решения нового поколения
               </p>
             </div>
             <div>
@@ -620,22 +633,22 @@ const Index = () => {
               <ul className="space-y-2">
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white">
-                    Разработка ПО
+                    Разработка ГИС
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white">
-                    Консалтинг
+                    Картографирование
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white">
-                    Поддержка
+                    Анализ данных
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white">
-                    Интеграции
+                    Консультации
                   </a>
                 </li>
               </ul>
@@ -669,14 +682,14 @@ const Index = () => {
               <h4 className="text-lg font-semibold mb-4">Контакты</h4>
               <div className="space-y-2">
                 <p className="text-gray-400">+7 (495) 123-45-67</p>
-                <p className="text-gray-400">info@techsolutions.ru</p>
-                <p className="text-gray-400">г. Москва, ул. Тверская, 1</p>
+                <p className="text-gray-400">info@geosystem.ru</p>
+                <p className="text-gray-400">г. Москва, ул. Карта, 15</p>
               </div>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="text-gray-400">
-              © 2024 TechSolutions. Все права защищены.
+              © 2024 GeoSystem. Все права защищены.
             </p>
           </div>
         </div>
